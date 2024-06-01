@@ -350,7 +350,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate{
                 dateFormatter.dateFormat = "mm:ss"
         
                 headerTitle1 = dateFormatter.string(from: Date())
-        
+        //gena
         headerTitle2 = dateFormatter.string( for: Calendar.current.date(byAdding: .second, value: -1, to: currentDate))!
            
            // Перезагрузка заголовка секции
