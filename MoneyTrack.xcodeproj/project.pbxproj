@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E81271CD2CF15870002732BC /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = E81271CC2CF15870002732BC /* DGCharts */; };
+		E843764A2CFA514D0088D9F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E84376492CFA514C0088D9F3 /* Main.storyboard */; };
+		E843764C2CFA51890088D9F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E843764B2CFA51890088D9F3 /* ViewController.swift */; };
+		E843764E2CFA52020088D9F3 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E843764D2CFA52020088D9F3 /* ReportViewController.swift */; };
+		E84376502CFA522D0088D9F3 /* ReportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E843764F2CFA522D0088D9F3 /* ReportViewController.xib */; };
+		E84376592CFA52C10088D9F3 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84376572CFA52C10088D9F3 /* HistoryViewController.swift */; };
+		E843765A2CFA52C10088D9F3 /* HistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E84376582CFA52C10088D9F3 /* HistoryViewController.xib */; };
+		E84376612CFA535F0088D9F3 /* HistoryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E843765F2CFA535F0088D9F3 /* HistoryViewCell.swift */; };
+		E84376622CFA535F0088D9F3 /* HistoryViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E84376602CFA535F0088D9F3 /* HistoryViewCell.xib */; };
+		E84376662CFA53C80088D9F3 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84376642CFA53C80088D9F3 /* MainTableViewCell.swift */; };
+		E84376672CFA53C80088D9F3 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E84376652CFA53C80088D9F3 /* MainTableViewCell.xib */; };
+		E84376882CFA57E10088D9F3 /* DateSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84376872CFA57E00088D9F3 /* DateSelectionViewController.swift */; };
+		E843768A2CFA57F00088D9F3 /* HistoryMonthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84376892CFA57F00088D9F3 /* HistoryMonthCell.swift */; };
+		E843768C2CFA57FC0088D9F3 /* HistoryMonthCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E843768B2CFA57FC0088D9F3 /* HistoryMonthCell.xib */; };
+		E843768E2CFA58090088D9F3 /* DateSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E843768D2CFA58090088D9F3 /* DateSelectionViewController.xib */; };
+		E84376912CFA58680088D9F3 /* CreateCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84376902CFA58680088D9F3 /* CreateCategoryViewController.swift */; };
+		E84376932CFA58800088D9F3 /* CreateCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E84376922CFA58800088D9F3 /* CreateCategoryViewController.xib */; };
+		E843769A2CFA58E50088D9F3 /* ChooseColorIconTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E84376982CFA58E50088D9F3 /* ChooseColorIconTableViewCell.xib */; };
+		E843769B2CFA58E50088D9F3 /* ChooseColorIconTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84376992CFA58E50088D9F3 /* ChooseColorIconTableViewCell.swift */; };
+		E843769E2CFA59030088D9F3 /* ChooseIconTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E843769C2CFA59030088D9F3 /* ChooseIconTableViewCell.swift */; };
+		E843769F2CFA59030088D9F3 /* ChooseIconTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E843769D2CFA59030088D9F3 /* ChooseIconTableViewCell.xib */; };
+		E84376A22CFA59520088D9F3 /* NewTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E84376A02CFA59520088D9F3 /* NewTitleTableViewCell.xib */; };
+		E84376A32CFA59520088D9F3 /* NewTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84376A12CFA59520088D9F3 /* NewTitleTableViewCell.swift */; };
+		E84376A72CFA59E00088D9F3 /* ColorIconCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E84376A52CFA59E00088D9F3 /* ColorIconCollectionViewController.xib */; };
+		E84376A82CFA59E00088D9F3 /* ColorIconCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84376A62CFA59E00088D9F3 /* ColorIconCollectionViewController.swift */; };
+		E84376AB2CFA5A190088D9F3 /* CellColorIconCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84376A92CFA5A190088D9F3 /* CellColorIconCollectionViewCell.swift */; };
+		E84376AC2CFA5A190088D9F3 /* CellColorIconCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E84376AA2CFA5A190088D9F3 /* CellColorIconCollectionViewCell.xib */; };
+		E84376B02CFA5A690088D9F3 /* CategoryCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E84376AE2CFA5A690088D9F3 /* CategoryCollectionViewController.xib */; };
+		E84376B12CFA5A690088D9F3 /* CategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84376AF2CFA5A690088D9F3 /* CategoryCollectionViewController.swift */; };
+		E84376B42CFA5A7B0088D9F3 /* NewCategeryCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84376B22CFA5A7A0088D9F3 /* NewCategeryCellCollectionViewCell.swift */; };
+		E84376B52CFA5A7B0088D9F3 /* NewCategeryCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E84376B32CFA5A7B0088D9F3 /* NewCategeryCellCollectionViewCell.xib */; };
+		E84376B92CFA5AAE0088D9F3 /* AllIconCategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84376B72CFA5AAE0088D9F3 /* AllIconCategoryCollectionViewController.swift */; };
+		E84376BA2CFA5AAE0088D9F3 /* AllIconCategoryCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E84376B82CFA5AAE0088D9F3 /* AllIconCategoryCollectionViewController.xib */; };
+		E84376BD2CFA5AC10088D9F3 /* IconCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84376BB2CFA5AC10088D9F3 /* IconCategoryCollectionViewCell.swift */; };
+		E84376BE2CFA5AC10088D9F3 /* IconCategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E84376BC2CFA5AC10088D9F3 /* IconCategoryCollectionViewCell.xib */; };
+		E84376C12CFA5AE00088D9F3 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84376C02CFA5AE00088D9F3 /* CategoryCell.swift */; };
+		E84376C32CFA5AEF0088D9F3 /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84376C22CFA5AEF0088D9F3 /* TransactionCell.swift */; };
+		E84376C62CFA5B090088D9F3 /* EmptyCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84376C42CFA5B080088D9F3 /* EmptyCellTableViewCell.swift */; };
+		E84376C72CFA5B090088D9F3 /* EmptyCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E84376C52CFA5B090088D9F3 /* EmptyCellTableViewCell.xib */; };
+		E8AB0B2D2AEF0E480023D19C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB0B2C2AEF0E480023D19C /* AppDelegate.swift */; };
+		E8AB0B2F2AEF0E480023D19C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB0B2E2AEF0E480023D19C /* SceneDelegate.swift */; };
+		E8AB0B392AEF0E4C0023D19C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8AB0B382AEF0E4C0023D19C /* Assets.xcassets */; };
+		E8AB0B3C2AEF0E4C0023D19C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8AB0B3A2AEF0E4C0023D19C /* LaunchScreen.storyboard */; };
+		E8DA48D02CFA62CE00105E67 /* MoneyTrack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8DA48CE2CFA62CE00105E67 /* MoneyTrack.xcdatamodeld */; };
+		E8DA48DD2CFA647100105E67 /* EditTransactionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA48DB2CFA647100105E67 /* EditTransactionController.swift */; };
+		E8DA48DE2CFA647100105E67 /* EditTransactionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8DA48DC2CFA647100105E67 /* EditTransactionController.xib */; };
+		E8DA48E52CFA647E00105E67 /* SelectCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA48DF2CFA647E00105E67 /* SelectCategoryTableViewCell.swift */; };
+		E8DA48E62CFA647E00105E67 /* SummaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA48E02CFA647E00105E67 /* SummaTableViewCell.swift */; };
+		E8DA48E72CFA647E00105E67 /* SelectCategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8DA48E12CFA647E00105E67 /* SelectCategoryTableViewCell.xib */; };
+		E8DA48E82CFA647E00105E67 /* SummaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8DA48E22CFA647E00105E67 /* SummaTableViewCell.xib */; };
+		E8DA48E92CFA647E00105E67 /* SelectDateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA48E32CFA647E00105E67 /* SelectDateTableViewCell.swift */; };
+		E8DA48EA2CFA647E00105E67 /* SelectDateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8DA48E42CFA647E00105E67 /* SelectDateTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E81271C32CF15417002732BC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E84376492CFA514C0088D9F3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E843764B2CFA51890088D9F3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E843764D2CFA52020088D9F3 /* ReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReportViewController.swift; path = MoneyTrack/Controllers/ReportController/ReportViewController.swift; sourceTree = SOURCE_ROOT; };
+		E843764F2CFA522D0088D9F3 /* ReportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReportViewController.xib; sourceTree = "<group>"; };
+		E84376572CFA52C10088D9F3 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		E84376582CFA52C10088D9F3 /* HistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryViewController.xib; sourceTree = "<group>"; };
+		E843765F2CFA535F0088D9F3 /* HistoryViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewCell.swift; sourceTree = "<group>"; };
+		E84376602CFA535F0088D9F3 /* HistoryViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryViewCell.xib; sourceTree = "<group>"; };
+		E84376642CFA53C80088D9F3 /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		E84376652CFA53C80088D9F3 /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		E84376872CFA57E00088D9F3 /* DateSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateSelectionViewController.swift; sourceTree = "<group>"; };
+		E84376892CFA57F00088D9F3 /* HistoryMonthCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryMonthCell.swift; sourceTree = "<group>"; };
+		E843768B2CFA57FC0088D9F3 /* HistoryMonthCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryMonthCell.xib; sourceTree = "<group>"; };
+		E843768D2CFA58090088D9F3 /* DateSelectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateSelectionViewController.xib; sourceTree = "<group>"; };
+		E84376902CFA58680088D9F3 /* CreateCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCategoryViewController.swift; sourceTree = "<group>"; };
+		E84376922CFA58800088D9F3 /* CreateCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateCategoryViewController.xib; sourceTree = "<group>"; };
+		E84376982CFA58E50088D9F3 /* ChooseColorIconTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChooseColorIconTableViewCell.xib; sourceTree = "<group>"; };
+		E84376992CFA58E50088D9F3 /* ChooseColorIconTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseColorIconTableViewCell.swift; sourceTree = "<group>"; };
+		E843769C2CFA59030088D9F3 /* ChooseIconTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseIconTableViewCell.swift; sourceTree = "<group>"; };
+		E843769D2CFA59030088D9F3 /* ChooseIconTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChooseIconTableViewCell.xib; sourceTree = "<group>"; };
+		E84376A02CFA59520088D9F3 /* NewTitleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTitleTableViewCell.xib; sourceTree = "<group>"; };
+		E84376A12CFA59520088D9F3 /* NewTitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTitleTableViewCell.swift; sourceTree = "<group>"; };
+		E84376A52CFA59E00088D9F3 /* ColorIconCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorIconCollectionViewController.xib; sourceTree = "<group>"; };
+		E84376A62CFA59E00088D9F3 /* ColorIconCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorIconCollectionViewController.swift; sourceTree = "<group>"; };
+		E84376A92CFA5A190088D9F3 /* CellColorIconCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellColorIconCollectionViewCell.swift; sourceTree = "<group>"; };
+		E84376AA2CFA5A190088D9F3 /* CellColorIconCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellColorIconCollectionViewCell.xib; sourceTree = "<group>"; };
+		E84376AE2CFA5A690088D9F3 /* CategoryCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryCollectionViewController.xib; sourceTree = "<group>"; };
+		E84376AF2CFA5A690088D9F3 /* CategoryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewController.swift; sourceTree = "<group>"; };
+		E84376B22CFA5A7A0088D9F3 /* NewCategeryCellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCategeryCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		E84376B32CFA5A7B0088D9F3 /* NewCategeryCellCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewCategeryCellCollectionViewCell.xib; sourceTree = "<group>"; };
+		E84376B72CFA5AAE0088D9F3 /* AllIconCategoryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllIconCategoryCollectionViewController.swift; sourceTree = "<group>"; };
+		E84376B82CFA5AAE0088D9F3 /* AllIconCategoryCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllIconCategoryCollectionViewController.xib; sourceTree = "<group>"; };
+		E84376BB2CFA5AC10088D9F3 /* IconCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		E84376BC2CFA5AC10088D9F3 /* IconCategoryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IconCategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		E84376C02CFA5AE00088D9F3 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		E84376C22CFA5AEF0088D9F3 /* TransactionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+		E84376C42CFA5B080088D9F3 /* EmptyCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyCellTableViewCell.swift; sourceTree = "<group>"; };
+		E84376C52CFA5B090088D9F3 /* EmptyCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyCellTableViewCell.xib; sourceTree = "<group>"; };
+		E8AB0B292AEF0E480023D19C /* MoneyTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8AB0B2C2AEF0E480023D19C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8AB0B2E2AEF0E480023D19C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E8AB0B362AEF0E480023D19C /* myNewApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myNewApp.xcdatamodel; sourceTree = "<group>"; };
+		E8AB0B382AEF0E4C0023D19C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8AB0B3B2AEF0E4C0023D19C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8AB0B3D2AEF0E4C0023D19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8DA48CF2CFA62CE00105E67 /* myNewApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myNewApp.xcdatamodel; sourceTree = "<group>"; };
+		E8DA48DB2CFA647100105E67 /* EditTransactionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTransactionController.swift; sourceTree = "<group>"; };
+		E8DA48DC2CFA647100105E67 /* EditTransactionController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditTransactionController.xib; sourceTree = "<group>"; };
+		E8DA48DF2CFA647E00105E67 /* SelectCategoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCategoryTableViewCell.swift; sourceTree = "<group>"; };
+		E8DA48E02CFA647E00105E67 /* SummaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaTableViewCell.swift; sourceTree = "<group>"; };
+		E8DA48E12CFA647E00105E67 /* SelectCategoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectCategoryTableViewCell.xib; sourceTree = "<group>"; };
+		E8DA48E22CFA647E00105E67 /* SummaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SummaTableViewCell.xib; sourceTree = "<group>"; };
+		E8DA48E32CFA647E00105E67 /* SelectDateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectDateTableViewCell.swift; sourceTree = "<group>"; };
+		E8DA48E42CFA647E00105E67 /* SelectDateTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectDateTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8AB0B262AEF0E480023D19C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81271CD2CF15870002732BC /* DGCharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E81271BF2CF15414002732BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E81271D02CF7D938002732BC /* EditTransactionController */ = {
+			isa = PBXGroup;
+			children = (
+				E8DA48EB2CFA648500105E67 /* Cells */,
+				E8DA48DB2CFA647100105E67 /* EditTransactionController.swift */,
+				E8DA48DC2CFA647100105E67 /* EditTransactionController.xib */,
+			);
+			path = EditTransactionController;
+			sourceTree = "<group>";
+		};
+		E81271D12CF7D9D5002732BC /* ReportController */ = {
+			isa = PBXGroup;
+			children = (
+				E84376682CFA53CF0088D9F3 /* Cells */,
+				E843764F2CFA522D0088D9F3 /* ReportViewController.xib */,
+				E843764D2CFA52020088D9F3 /* ReportViewController.swift */,
+			);
+			path = ReportController;
+			sourceTree = "<group>";
+		};
+		E81271F32CF7E64F002732BC /* CreateCategoryController */ = {
+			isa = PBXGroup;
+			children = (
+				E84376902CFA58680088D9F3 /* CreateCategoryViewController.swift */,
+				E84376922CFA58800088D9F3 /* CreateCategoryViewController.xib */,
+				E84376A42CFA59A00088D9F3 /* New Group */,
+			);
+			path = CreateCategoryController;
+			sourceTree = "<group>";
+		};
+		E81271F52CF7E6B3002732BC /* ColorIconController */ = {
+			isa = PBXGroup;
+			children = (
+				E84376A62CFA59E00088D9F3 /* ColorIconCollectionViewController.swift */,
+				E84376A52CFA59E00088D9F3 /* ColorIconCollectionViewController.xib */,
+				E84376AD2CFA5A220088D9F3 /* Cells */,
+			);
+			path = ColorIconController;
+			sourceTree = "<group>";
+		};
+		E81271F72CF7E6F6002732BC /* AllIconController */ = {
+			isa = PBXGroup;
+			children = (
+				E84376B72CFA5AAE0088D9F3 /* AllIconCategoryCollectionViewController.swift */,
+				E84376B82CFA5AAE0088D9F3 /* AllIconCategoryCollectionViewController.xib */,
+				E84376BF2CFA5AC60088D9F3 /* Cells */,
+			);
+			path = AllIconController;
+			sourceTree = "<group>";
+		};
+		E81271FB2CF7E7AC002732BC /* DateSelectionController */ = {
+			isa = PBXGroup;
+			children = (
+				E843768F2CFA58140088D9F3 /* Cells */,
+				E84376872CFA57E00088D9F3 /* DateSelectionViewController.swift */,
+				E843768D2CFA58090088D9F3 /* DateSelectionViewController.xib */,
+			);
+			path = DateSelectionController;
+			sourceTree = "<group>";
+		};
+		E84376632CFA539F0088D9F3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E843765F2CFA535F0088D9F3 /* HistoryViewCell.swift */,
+				E84376602CFA535F0088D9F3 /* HistoryViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		E84376682CFA53CF0088D9F3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E84376642CFA53C80088D9F3 /* MainTableViewCell.swift */,
+				E84376652CFA53C80088D9F3 /* MainTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E843768F2CFA58140088D9F3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E84376892CFA57F00088D9F3 /* HistoryMonthCell.swift */,
+				E843768B2CFA57FC0088D9F3 /* HistoryMonthCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E84376A42CFA59A00088D9F3 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				E84376992CFA58E50088D9F3 /* ChooseColorIconTableViewCell.swift */,
+				E84376982CFA58E50088D9F3 /* ChooseColorIconTableViewCell.xib */,
+				E843769C2CFA59030088D9F3 /* ChooseIconTableViewCell.swift */,
+				E843769D2CFA59030088D9F3 /* ChooseIconTableViewCell.xib */,
+				E84376A12CFA59520088D9F3 /* NewTitleTableViewCell.swift */,
+				E84376A02CFA59520088D9F3 /* NewTitleTableViewCell.xib */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		E84376AD2CFA5A220088D9F3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E84376A92CFA5A190088D9F3 /* CellColorIconCollectionViewCell.swift */,
+				E84376AA2CFA5A190088D9F3 /* CellColorIconCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E84376B62CFA5A7F0088D9F3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E84376B22CFA5A7A0088D9F3 /* NewCategeryCellCollectionViewCell.swift */,
+				E84376B32CFA5A7B0088D9F3 /* NewCategeryCellCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E84376BF2CFA5AC60088D9F3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E84376BB2CFA5AC10088D9F3 /* IconCategoryCollectionViewCell.swift */,
+				E84376BC2CFA5AC10088D9F3 /* IconCategoryCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E84376C82CFA5B1D0088D9F3 /* EmptyCell */ = {
+			isa = PBXGroup;
+			children = (
+				E84376C42CFA5B080088D9F3 /* EmptyCellTableViewCell.swift */,
+				E84376C52CFA5B090088D9F3 /* EmptyCellTableViewCell.xib */,
+			);
+			path = EmptyCell;
+			sourceTree = "<group>";
+		};
+		E85420032BFA7F1F005AAB78 /* HistoryController */ = {
+			isa = PBXGroup;
+			children = (
+				E84376632CFA539F0088D9F3 /* Cells */,
+				E84376572CFA52C10088D9F3 /* HistoryViewController.swift */,
+				E84376582CFA52C10088D9F3 /* HistoryViewController.xib */,
+			);
+			path = HistoryController;
+			sourceTree = "<group>";
+		};
+		E8AB0B202AEF0E480023D19C = {
+			isa = PBXGroup;
+			children = (
+				E8DA48CE2CFA62CE00105E67 /* MoneyTrack.xcdatamodeld */,
+				E8AB0B2B2AEF0E480023D19C /* MoneyTrack */,
+				E8AB0B2A2AEF0E480023D19C /* Products */,
+				E81271BF2CF15414002732BC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E8AB0B2A2AEF0E480023D19C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8AB0B292AEF0E480023D19C /* MoneyTrack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8AB0B2B2AEF0E480023D19C /* MoneyTrack */ = {
+			isa = PBXGroup;
+			children = (
+				E8D8D1BF2C10E14200FF2868 /* Application */,
+				E8D8D1C12C10E38900FF2868 /* Controllers */,
+				E8D8D1C02C10E2B200FF2868 /* Resources */,
+			);
+			path = MoneyTrack;
+			sourceTree = "<group>";
+		};
+		E8D8D1BF2C10E14200FF2868 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E8AB0B3D2AEF0E4C0023D19C /* Info.plist */,
+				E8AB0B2C2AEF0E480023D19C /* AppDelegate.swift */,
+				E8AB0B2E2AEF0E480023D19C /* SceneDelegate.swift */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		E8D8D1C02C10E2B200FF2868 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E8AB0B382AEF0E4C0023D19C /* Assets.xcassets */,
+				E8AB0B352AEF0E480023D19C /* myNewApp.xcdatamodeld */,
+				E8AB0B3A2AEF0E4C0023D19C /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E8D8D1C12C10E38900FF2868 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E8D8D1C22C10E48E00FF2868 /* MainController */,
+				E81271F72CF7E6F6002732BC /* AllIconController */,
+				E8D8D1C32C10E54900FF2868 /* CategoryController */,
+				E81271F52CF7E6B3002732BC /* ColorIconController */,
+				E81271F32CF7E64F002732BC /* CreateCategoryController */,
+				E81271FB2CF7E7AC002732BC /* DateSelectionController */,
+				E81271D02CF7D938002732BC /* EditTransactionController */,
+				E85420032BFA7F1F005AAB78 /* HistoryController */,
+				E81271D12CF7D9D5002732BC /* ReportController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E8D8D1C22C10E48E00FF2868 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				E84376492CFA514C0088D9F3 /* Main.storyboard */,
+				E843764B2CFA51890088D9F3 /* ViewController.swift */,
+				E84376C22CFA5AEF0088D9F3 /* TransactionCell.swift */,
+				E84376C02CFA5AE00088D9F3 /* CategoryCell.swift */,
+				E84376C82CFA5B1D0088D9F3 /* EmptyCell */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		E8D8D1C32C10E54900FF2868 /* CategoryController */ = {
+			isa = PBXGroup;
+			children = (
+				E84376AF2CFA5A690088D9F3 /* CategoryCollectionViewController.swift */,
+				E84376AE2CFA5A690088D9F3 /* CategoryCollectionViewController.xib */,
+				E84376B62CFA5A7F0088D9F3 /* Cells */,
+			);
+			path = CategoryController;
+			sourceTree = "<group>";
+		};
+		E8DA48EB2CFA648500105E67 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E8DA48DF2CFA647E00105E67 /* SelectCategoryTableViewCell.swift */,
+				E8DA48E12CFA647E00105E67 /* SelectCategoryTableViewCell.xib */,
+				E8DA48E32CFA647E00105E67 /* SelectDateTableViewCell.swift */,
+				E8DA48E42CFA647E00105E67 /* SelectDateTableViewCell.xib */,
+				E8DA48E02CFA647E00105E67 /* SummaTableViewCell.swift */,
+				E8DA48E22CFA647E00105E67 /* SummaTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8AB0B282AEF0E480023D19C /* MoneyTrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8AB0B402AEF0E4C0023D19C /* Build configuration list for PBXNativeTarget "MoneyTrack" */;
+			buildPhases = (
+				E8AB0B252AEF0E480023D19C /* Sources */,
+				E8AB0B262AEF0E480023D19C /* Frameworks */,
+				E8AB0B272AEF0E480023D19C /* Resources */,
+				E81271C32CF15417002732BC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoneyTrack;
+			packageProductDependencies = (
+				E81271CC2CF15870002732BC /* DGCharts */,
+			);
+			productName = myNewApp;
+			productReference = E8AB0B292AEF0E480023D19C /* MoneyTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8AB0B212AEF0E480023D19C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E8AB0B282AEF0E480023D19C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = E8AB0B242AEF0E480023D19C /* Build configuration list for PBXProject "MoneyTrack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8AB0B202AEF0E480023D19C;
+			packageReferences = (
+				E81271CB2CF15870002732BC /* XCRemoteSwiftPackageReference "Charts" */,
+			);
+			productRefGroup = E8AB0B2A2AEF0E480023D19C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8AB0B282AEF0E480023D19C /* MoneyTrack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8AB0B272AEF0E480023D19C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84376C72CFA5B090088D9F3 /* EmptyCellTableViewCell.xib in Resources */,
+				E84376B02CFA5A690088D9F3 /* CategoryCollectionViewController.xib in Resources */,
+				E843764A2CFA514D0088D9F3 /* Main.storyboard in Resources */,
+				E8DA48E82CFA647E00105E67 /* SummaTableViewCell.xib in Resources */,
+				E84376A22CFA59520088D9F3 /* NewTitleTableViewCell.xib in Resources */,
+				E8DA48EA2CFA647E00105E67 /* SelectDateTableViewCell.xib in Resources */,
+				E8AB0B3C2AEF0E4C0023D19C /* LaunchScreen.storyboard in Resources */,
+				E84376AC2CFA5A190088D9F3 /* CellColorIconCollectionViewCell.xib in Resources */,
+				E84376672CFA53C80088D9F3 /* MainTableViewCell.xib in Resources */,
+				E8AB0B392AEF0E4C0023D19C /* Assets.xcassets in Resources */,
+				E843765A2CFA52C10088D9F3 /* HistoryViewController.xib in Resources */,
+				E84376BA2CFA5AAE0088D9F3 /* AllIconCategoryCollectionViewController.xib in Resources */,
+				E84376502CFA522D0088D9F3 /* ReportViewController.xib in Resources */,
+				E84376BE2CFA5AC10088D9F3 /* IconCategoryCollectionViewCell.xib in Resources */,
+				E84376622CFA535F0088D9F3 /* HistoryViewCell.xib in Resources */,
+				E843768E2CFA58090088D9F3 /* DateSelectionViewController.xib in Resources */,
+				E843769A2CFA58E50088D9F3 /* ChooseColorIconTableViewCell.xib in Resources */,
+				E84376B52CFA5A7B0088D9F3 /* NewCategeryCellCollectionViewCell.xib in Resources */,
+				E843769F2CFA59030088D9F3 /* ChooseIconTableViewCell.xib in Resources */,
+				E8DA48E72CFA647E00105E67 /* SelectCategoryTableViewCell.xib in Resources */,
+				E84376A72CFA59E00088D9F3 /* ColorIconCollectionViewController.xib in Resources */,
+				E843768C2CFA57FC0088D9F3 /* HistoryMonthCell.xib in Resources */,
+				E84376932CFA58800088D9F3 /* CreateCategoryViewController.xib in Resources */,
+				E8DA48DE2CFA647100105E67 /* EditTransactionController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8AB0B252AEF0E480023D19C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84376B42CFA5A7B0088D9F3 /* NewCategeryCellCollectionViewCell.swift in Sources */,
+				E84376A82CFA59E00088D9F3 /* ColorIconCollectionViewController.swift in Sources */,
+				E84376592CFA52C10088D9F3 /* HistoryViewController.swift in Sources */,
+				E843764E2CFA52020088D9F3 /* ReportViewController.swift in Sources */,
+				E843768A2CFA57F00088D9F3 /* HistoryMonthCell.swift in Sources */,
+				E84376912CFA58680088D9F3 /* CreateCategoryViewController.swift in Sources */,
+				E8DA48E52CFA647E00105E67 /* SelectCategoryTableViewCell.swift in Sources */,
+				E8AB0B2D2AEF0E480023D19C /* AppDelegate.swift in Sources */,
+				E84376B92CFA5AAE0088D9F3 /* AllIconCategoryCollectionViewController.swift in Sources */,
+				E843769E2CFA59030088D9F3 /* ChooseIconTableViewCell.swift in Sources */,
+				E84376C12CFA5AE00088D9F3 /* CategoryCell.swift in Sources */,
+				E8DA48E62CFA647E00105E67 /* SummaTableViewCell.swift in Sources */,
+				E8DA48DD2CFA647100105E67 /* EditTransactionController.swift in Sources */,
+				E84376A32CFA59520088D9F3 /* NewTitleTableViewCell.swift in Sources */,
+				E84376BD2CFA5AC10088D9F3 /* IconCategoryCollectionViewCell.swift in Sources */,
+				E8DA48D02CFA62CE00105E67 /* MoneyTrack.xcdatamodeld in Sources */,
+				E84376662CFA53C80088D9F3 /* MainTableViewCell.swift in Sources */,
+				E84376612CFA535F0088D9F3 /* HistoryViewCell.swift in Sources */,
+				E843769B2CFA58E50088D9F3 /* ChooseColorIconTableViewCell.swift in Sources */,
+				E8DA48E92CFA647E00105E67 /* SelectDateTableViewCell.swift in Sources */,
+				E84376B12CFA5A690088D9F3 /* CategoryCollectionViewController.swift in Sources */,
+				E843764C2CFA51890088D9F3 /* ViewController.swift in Sources */,
+				E84376C62CFA5B090088D9F3 /* EmptyCellTableViewCell.swift in Sources */,
+				E84376AB2CFA5A190088D9F3 /* CellColorIconCollectionViewCell.swift in Sources */,
+				E8AB0B2F2AEF0E480023D19C /* SceneDelegate.swift in Sources */,
+				E84376C32CFA5AEF0088D9F3 /* TransactionCell.swift in Sources */,
+				E84376882CFA57E10088D9F3 /* DateSelectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E8AB0B3A2AEF0E4C0023D19C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8AB0B3B2AEF0E4C0023D19C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8AB0B3E2AEF0E4C0023D19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8AB0B3F2AEF0E4C0023D19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8AB0B412AEF0E4C0023D19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZT97FBBMQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoneyTrack/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandrkovalchuk.moneytrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8AB0B422AEF0E4C0023D19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZT97FBBMQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoneyTrack/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandrkovalchuk.moneytrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8AB0B242AEF0E480023D19C /* Build configuration list for PBXProject "MoneyTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8AB0B3E2AEF0E4C0023D19C /* Debug */,
+				E8AB0B3F2AEF0E4C0023D19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8AB0B402AEF0E4C0023D19C /* Build configuration list for PBXNativeTarget "MoneyTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8AB0B412AEF0E4C0023D19C /* Debug */,
+				E8AB0B422AEF0E4C0023D19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E81271CB2CF15870002732BC /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ChartsOrg/Charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E81271CC2CF15870002732BC /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E81271CB2CF15870002732BC /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		E8AB0B352AEF0E480023D19C /* myNewApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E8AB0B362AEF0E480023D19C /* myNewApp.xcdatamodel */,
+			);
+			currentVersion = E8AB0B362AEF0E480023D19C /* myNewApp.xcdatamodel */;
+			path = myNewApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		E8DA48CE2CFA62CE00105E67 /* MoneyTrack.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E8DA48CF2CFA62CE00105E67 /* myNewApp.xcdatamodel */,
+			);
+			currentVersion = E8DA48CF2CFA62CE00105E67 /* myNewApp.xcdatamodel */;
+			name = MoneyTrack.xcdatamodeld;
+			path = MoneyTrack/Resources/MoneyTrack.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E8AB0B212AEF0E480023D19C /* Project object */;
+}

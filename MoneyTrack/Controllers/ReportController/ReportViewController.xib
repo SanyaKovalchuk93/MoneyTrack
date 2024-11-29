@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ReportViewController" customModule="myNewApp" customModuleProvider="target">
+            <connections>
+                <outlet property="labelDate" destination="cB4-c4-XGy" id="QOQ-VL-B0y"/>
+                <outlet property="mainView" destination="lyh-Cf-Iom" id="AR2-YZ-1o6"/>
+                <outlet property="reportList" destination="ePR-3j-g2u" id="5xG-oh-ZhI"/>
+                <outlet property="selectionDayMonthYear" destination="jCy-fU-wgf" id="DtX-sY-crz"/>
+                <outlet property="totalSumma" destination="NwC-Rw-Rs2" id="i9t-Np-vCh"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewChart" destination="Z00-6i-Diz" id="vky-IA-Koc"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="jCy-fU-wgf">
+                    <rect key="frame" x="66.666666666666686" y="54" width="278" height="41"/>
+                    <color key="backgroundColor" name="mainColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Yja-9l-VdE"/>
+                    </constraints>
+                    <segments>
+                        <segment title="День"/>
+                        <segment title="Месяц"/>
+                        <segment title="Год"/>
+                    </segments>
+                    <color key="selectedSegmentTintColor" name="greyLight"/>
+                    <connections>
+                        <action selector="segmentControl:" destination="-1" eventType="valueChanged" id="fb3-ya-nwN"/>
+                    </connections>
+                </segmentedControl>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lyh-Cf-Iom">
+                    <rect key="frame" x="0.0" y="104" width="414" height="758"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cB4-c4-XGy">
+                            <rect key="frame" x="168.66666666666666" y="0.0" width="76.666666666666657" height="36"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                            <color key="textColor" systemColor="tintColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NwC-Rw-Rs2">
+                            <rect key="frame" x="186.33333333333334" y="44" width="41.333333333333343" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="50" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ePR-3j-g2u">
+                            <rect key="frame" x="0.0" y="381" width="414" height="357"/>
+                            <color key="backgroundColor" name="backgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="357" id="CAp-qf-qoJ"/>
+                            </constraints>
+                        </tableView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z00-6i-Diz">
+                            <rect key="frame" x="0.0" y="73" width="414" height="300"/>
+                            <color key="backgroundColor" name="backgroundColor"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" name="backgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="ePR-3j-g2u" firstAttribute="leading" secondItem="lyh-Cf-Iom" secondAttribute="leading" id="6Ag-FJ-g2g"/>
+                        <constraint firstAttribute="trailing" secondItem="Z00-6i-Diz" secondAttribute="trailing" id="Ahk-XM-Ma7"/>
+                        <constraint firstAttribute="trailing" secondItem="ePR-3j-g2u" secondAttribute="trailing" id="COv-c3-CpP"/>
+                        <constraint firstItem="Z00-6i-Diz" firstAttribute="centerX" secondItem="NwC-Rw-Rs2" secondAttribute="centerX" id="LUs-v8-oeL"/>
+                        <constraint firstItem="Z00-6i-Diz" firstAttribute="top" secondItem="lyh-Cf-Iom" secondAttribute="top" constant="73" id="PYA-H7-fpf"/>
+                        <constraint firstItem="Z00-6i-Diz" firstAttribute="top" secondItem="NwC-Rw-Rs2" secondAttribute="bottom" constant="8" id="XNZ-a0-QTC"/>
+                        <constraint firstItem="cB4-c4-XGy" firstAttribute="top" secondItem="lyh-Cf-Iom" secondAttribute="top" id="Ycy-PL-iwE"/>
+                        <constraint firstItem="ePR-3j-g2u" firstAttribute="top" secondItem="cB4-c4-XGy" secondAttribute="top" constant="381" id="i9O-Y2-grj"/>
+                        <constraint firstItem="ePR-3j-g2u" firstAttribute="top" secondItem="Z00-6i-Diz" secondAttribute="bottom" constant="8" id="qgu-cK-u0j"/>
+                        <constraint firstItem="Z00-6i-Diz" firstAttribute="leading" secondItem="lyh-Cf-Iom" secondAttribute="leading" id="vOi-qo-wdn"/>
+                        <constraint firstItem="ePR-3j-g2u" firstAttribute="centerX" secondItem="cB4-c4-XGy" secondAttribute="centerX" id="wQk-2c-exR"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="backgroundColor"/>
+            <constraints>
+                <constraint firstItem="jCy-fU-wgf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="66.702797202798024" id="24F-n1-bGm"/>
+                <constraint firstItem="lyh-Cf-Iom" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Nyl-kq-Ptx"/>
+                <constraint firstItem="jCy-fU-wgf" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="Z8A-qh-SqC"/>
+                <constraint firstItem="lyh-Cf-Iom" firstAttribute="top" secondItem="jCy-fU-wgf" secondAttribute="bottom" constant="10" id="Zih-f0-0NX"/>
+                <constraint firstItem="jCy-fU-wgf" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="-1.2972027972020328" id="kZA-Vr-uca"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="lyh-Cf-Iom" secondAttribute="trailing" id="t5i-rs-f9t"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="lyh-Cf-Iom" secondAttribute="bottom" id="z7F-et-2Ze"/>
+            </constraints>
+            <point key="canvasLocation" x="89.855072463768124" y="19.419642857142858"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="backgroundColor">
+            <color red="0.2630000114440918" green="0.24300000071525574" blue="0.31799998879432678" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="greyLight">
+            <color red="0.77600002288818359" green="0.78799998760223389" blue="0.80000001192092896" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="mainColor">
+            <color red="0.62000000476837158" green="0.61599999666213989" blue="0.70200002193450928" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
