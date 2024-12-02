@@ -8,3 +8,6 @@
 * **Transaction History** — Keep a detailed record of all your transactions and view them anytime.
   
 MoneyTrack helps you take control of your finances, save more money, and work towards your financial goals with ease.
+<div align="center">
+<img src="https://github.com/SanyaKovalchuk93/MoneyTrack-IOS-App/blob/master/presentation.gif" alt="Presentation" width="200" align="center">
+</div>
